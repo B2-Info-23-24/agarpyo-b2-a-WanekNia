@@ -103,7 +103,7 @@ def launch_game():
     else:  # "Difficile"
         nbrFood, nbrPiege = 2, 4
     
-    game_instance = Game(nbrFood, nbrPiege, current_coSntrol_mode)
+    game_instance = Game(nbrFood, nbrPiege, current_control_mode)
     game_instance.run() 
 
 
